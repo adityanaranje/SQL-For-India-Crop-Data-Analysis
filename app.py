@@ -7,7 +7,7 @@ df = pd.read_csv('Data.csv')
 
 states = list(df['State_Name'].unique())
 
-st.sidebar.title("India Crop Production Analysis")
+st.sidebar.title("India Crop Production Analysis Using MySql")
 
 user_menu = st.sidebar.radio('Select Option',
     ["How much is the total and average production?",
