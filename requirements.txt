@@ -1,0 +1,4 @@
+streamlit
+db-sqlite3
+pandas
+numerize
